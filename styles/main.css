@@ -7,7 +7,14 @@
     margin-bottom: 95px;
 }
 
-.header__navbar {}
+.header__navbar {
+    gap: 20px;
+    padding-right: 60px;
+}
+
+.logo {
+    height: 38px;
+}
 
 .header__menu {
     gap: 60px;
@@ -19,7 +26,7 @@
     line-height: 21.33px;
 }
 
-.active{
+.active {
     color: #FF6838;
 }
 
@@ -49,10 +56,45 @@
     font-size: 18px;
     padding: 15px 27px;
     border-radius: 5px;
+    white-space: nowrap;
     line-height: 21.33px;
     background-color: #FF7A50;
 }
 
-.sign-up:hover{
+.sign-up:hover {
     background-color: #ff6434;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries for responsive */
+
+@media screen and (max-width: 767.9px){
+    .header__link{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1023.9px) {
+    .logo {
+        height: 20px;
+    }
+
+    .header__menu {
+        gap: 30px;
+    }
+
+    .sign-up {
+        padding: 10px;
+        font-size: 14px;
+    }
 }
