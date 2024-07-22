@@ -8,5 +8,6 @@
 
 .flex{display: flex;}
 .flex-wrap{flex-wrap: wrap;}
+.j-center{justify-content: center;}
 .items-center{align-items: center;}
 .between{justify-content: space-between;}
