@@ -1,3 +1,58 @@
 @import url("./font.css");
 @import url("./reset.css");
 @import url("./global.css");
+
+.header {
+    margin-top: 65px;
+    margin-bottom: 95px;
+}
+
+.header__navbar {}
+
+.header__menu {
+    gap: 60px;
+}
+
+.header__link {
+    font-size: 18px;
+    color: #363853;
+    line-height: 21.33px;
+}
+
+.active{
+    color: #FF6838;
+}
+
+.header__link:hover {
+    color: #FF6838;
+}
+
+.buy {
+    position: relative;
+}
+
+.buy-item {
+    top: -2px;
+    right: -5px;
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    border-radius: 50%;
+    line-height: 11.85px;
+    background-color: #FF6838;
+}
+
+.sign-up {
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 27px;
+    border-radius: 5px;
+    line-height: 21.33px;
+    background-color: #FF7A50;
+}
+
+.sign-up:hover{
+    background-color: #ff6434;
+}

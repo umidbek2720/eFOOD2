@@ -10,16 +10,19 @@
 
     <!-- Header section -->
     <header class="header container">
-        <nav class="header__navbar">
+        <nav class="header__navbar flex items-center between">
             <a href="/"><img src="images/efood-logo.svg" alt="efood-logo" height="38"></a>
 
-            <ul>
-                <li><a href="" class="header__link">Home</a></li>
+            <ul class="header__menu flex items-center">
+                <li><a href="" class="header__link active">Home</a></li>
                 <li><a href="" class="header__link">Service</a></li>
                 <li><a href="" class="header__link">Top cities</a></li>
                 <li><a href="" class="header__link">Contact</a></li>
                 <li><img src="images/search-1.png" alt="search-1"></li>
-                <li><img src="images/buy.png" alt="buy"></li>
+                <li class="buy">
+                    <img src="images/buy.png" alt="buy">
+                    <span class="buy-item flex items-center j-center">4</span>
+                </li>
                 <li><a href="#" class="sign-up">Sign Up</a></li>
             </ul>
             
